@@ -13,7 +13,7 @@ public class remove_duplicates {
                 removedElements.add(arr.get(i));
             }
         }
-        return uniqueArr;
+        return arr;
     }
 
     public static void main(String[] args) {
