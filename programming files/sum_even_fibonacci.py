@@ -1,11 +1,12 @@
+# Bugs - Gian
 a, b = 0, 1
 sum_even = 0
 while b < 4000000:
     # If b is even, we add to sum
-    if b % 2 == 0:
+    if b % 2 != 0:
         sum_even += b
     # Continuing fibonacci sequence
-    a, b = b, a+b
+    b, a = b, a+b
 
 print(sum_even)
 
